@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    background-color: coral;
+}
