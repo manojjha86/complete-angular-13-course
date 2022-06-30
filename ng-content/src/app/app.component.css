@@ -1,0 +1,14 @@
+.container{
+    padding: 20px 30px;
+    background-color: #eee;
+}
+.more-products{
+    display: flex;
+}
+.btn-more{
+    min-width: 160px;
+    margin-top: 10px;
+    padding:10px 0px;
+    background-color: #4CAF50;
+    border: none;
+}
