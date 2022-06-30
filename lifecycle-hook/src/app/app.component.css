@@ -1,0 +1,19 @@
+.container{
+    margin: 20px 30px;
+    padding: 20px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+input[type=text]{
+    margin: 0px 10px;
+    width: 250px;
+    height: 24px;
+    border: none;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color: #CACFD2;
+}
+
