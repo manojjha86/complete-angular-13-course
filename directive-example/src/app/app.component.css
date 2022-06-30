@@ -1,0 +1,37 @@
+.container{
+    margin: 20px auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.video-container{
+    display: inline-flex;
+}
+
+.video-card{
+    width:220px;
+    height: 320px;
+    margin: 10px 10px;
+    background-color: #F8F9F9;
+}
+
+
+.details{
+    display: flex;
+    margin: 10px 5px;
+}
+.video-data{
+    margin: 5px;
+    font-size: 14px;
+
+}
+i{
+    font-size: 16px;
+    margin: 10px;
+    color: #FF5722;
+}
+.highlight{
+    background-color: #ddd;
+    border: #FF5722 3px solid;
+    border-radius: 5px;
+}
