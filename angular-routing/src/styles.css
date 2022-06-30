@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #efefef;
+}
+.active{
+    background-color: #777;
+}
