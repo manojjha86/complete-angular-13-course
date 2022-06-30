@@ -1,0 +1,115 @@
+
+
+.main-area{
+    margin: 30px 50px;
+    padding: 20px 20px;
+}
+
+.content-area{
+    padding: 20px 20px;
+    background-color: #ECF0F1 ;
+}
+.header{
+    text-align: center;
+    color: #21618C;
+    padding: 0px 20px;
+}
+h3{
+    color: #21618C;
+    margin: 10px 0px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#ECF0F1;
+}
+
+.container{
+    display: flex;
+}
+.form-area{
+    width: 50%;
+    padding: 10px 15px;
+}
+.product-display-area{
+    width: 50%;
+    padding: 10px 15px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #48C9B0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1ABC9C;
+  }
+
+  #products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+
+  
+  #products tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #products tr:hover {background-color: #ddd;}
+  
+  #products th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #222;
+    color: white;
+  }
+
+  td{
+    padding: 2px 3px;
+  }
+
+  button{
+    border: none;
+    padding: 8px 15px;
+  }
+
+  .btn-delete{
+    background-color: #FB5027;
+    color: white;
+    width: 80px;  
+  }
+
+  .btn-fetch{
+    background-color: #3498DB;
+    color: white;
+    margin: 0px 5px;
+  }
+
+  .btn-clear{
+    background-color: #F5B041;
+    color: white;
+    margin: 0px 5px;
+  }
+
+  .btn-edit{
+    background-color: #3498DB;
+    color: white;
+    width: 80px;
+  }
+  
