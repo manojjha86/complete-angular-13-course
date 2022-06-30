@@ -1,0 +1,50 @@
+<!-- <h1 setBackground>This is App Component</h1> -->
+<div class="container" setBackground appHover>
+  <p>This is a demo HTML content to understand custom attribute directive in Angular.</p>
+</div>
+
+<div appHighlight appHover>
+  <p>This is a demo HTML content to understand custom attribute directive in Angular.</p>
+</div>
+
+<div class="container" [appBetterhighlight]="'red'" [defaultColor]="'yellow'">
+  <p>This is a demo HTML content to understand @HostBinding in Angular.</p>
+</div>
+
+<div [appClass]="{container: 10 > 5, 'change-font': true}">
+  <p>This is a demo HTML content to understand how to create custom ngClass directive in Angular.</p>
+</div>
+
+<div class="container" [appStyle] ="{backgroundColor: active ? 'Green' : 'Red', color: 'white', fontWeight: 'bold'}">
+  <p>This is a demo HTML content to understand how to create custom ngStyle directive in Angular.</p>
+</div>
+
+<button class="btn btn-notice" (click)="DisplayNotice()">Show notice</button>
+<div class="info-container notice" *appIf="display">
+    <h3>This is important notice!</h3>
+    <p>This is a notice issued for all website users.</p>
+</div>
+
+<p *appIf="10 < 5">This is a demo paragraph!</p>
+
+<!-- <ng-template #myVar>
+  <p>This is an example paragraph.</p>
+</ng-template> -->
+
+<!-- <ng-template [ngIf]="display">
+  <div class="info-container notice">
+    <h3>This is important notice!</h3>
+    <p>This is a notice issued for all website users.</p>
+  </div>
+</ng-template> -->
+
+<!-- <ng-template #myVar>
+  <p>This is an example paragraph.</p>
+</ng-template> -->
+
+<div class="container" [ngSwitch]="occupation">
+  <p *ngSwitchCase="'teacher'">This paragraph will be displayed when occupation is teacher.</p>
+  <p *ngSwitchCase="'designer'">This paragraph will be displayed when occupation is designer.</p>
+  <p *ngSwitchCase="'lawyer'">This paragraph will be displayed when occupation is lawyer.</p>
+  <p *ngSwitchDefault>This paragraph is default and will be displayed if no case matches switch expression</p>
+</div>

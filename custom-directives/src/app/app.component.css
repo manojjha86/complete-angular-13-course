@@ -1,0 +1,25 @@
+.container{
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+.change-font{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info-container{
+    margin: 10px 30px;
+    padding: 10px 30px;
+}
+.notice{
+    background-color: #C8E6C9;
+}
+.btn{
+    width:120px;
+    height: 35px;   
+    border: none;
+}
+.btn-notice{
+    margin: 10px 30px;
+    background-color: #F5B041;
+}
