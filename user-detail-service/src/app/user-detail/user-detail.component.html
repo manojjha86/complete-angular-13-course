@@ -1,0 +1,12 @@
+<div class="container" *ngIf="user != undefined">
+    <div>
+        <img [src]="user.avatar" height="120" width="120">
+    </div>
+    <div class='user-detail'>
+        <p><b>Name:</b> {{user.name}}</p>
+        <p><b>Occupation:</b> {{user.job}}</p>
+        <p><b>Country:</b> {{user.country}}</p>
+        <p><b>Gender:</b> {{user.gender}}</p>
+        <p><b>Age:</b>{{user.age}}</p>
+    </div>
+</div>
