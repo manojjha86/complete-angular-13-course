@@ -1,0 +1,11 @@
+.container{
+    margin:10px 10px;
+    background-color: #eee;
+    width: 240px;
+}
+button{
+    width: 180px;
+    height: 35px;
+    border: none;
+    background-color: #F4D03F;
+}
